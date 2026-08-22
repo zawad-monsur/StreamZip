@@ -23,6 +23,13 @@ archive exists at any moment, in RAM.
 [latest release](https://github.com/zawad-monsur/StreamZip/releases/latest)
 and run it.
 
+> Windows may show a SmartScreen warning ("isn't commonly downloaded") the
+> first while — that's based on how many people have downloaded this exact
+> file before, not a malware detection. It's normal for any new executable
+> without a paid code-signing certificate. Click **More info → Run anyway**
+> if you trust the source, or skip the exe entirely and run from source
+> below, which never triggers it.
+
 **From source** (Windows, and likely Linux/macOS — see
 [Platform notes](#platform-notes)):
 
