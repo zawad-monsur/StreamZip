@@ -12,7 +12,19 @@ Each member is fetched over HTTP and inflated in a 1 MiB window as the bytes
 arrive; only the extracted files ever touch the disk. At most a few MB of the
 archive exists at any moment, in RAM.
 
-## Quickstart
+<p align="center">
+  <img src="docs/screenshot-idle.png" width="46%" alt="StreamZip, idle">
+  <img src="docs/screenshot-progress.png" width="46%" alt="StreamZip, mid-transfer">
+</p>
+
+## Get it
+
+**Windows, no Python required:** grab `StreamZip.exe` from the
+[latest release](https://github.com/zawad-monsur/StreamZip/releases/latest)
+and run it.
+
+**From source** (Windows, and likely Linux/macOS — see
+[Platform notes](#platform-notes)):
 
 ```bash
 git clone https://github.com/zawad-monsur/StreamZip.git
