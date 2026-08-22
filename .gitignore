@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+build/
+dist/
+*.spec
+*.streamzip-part
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
